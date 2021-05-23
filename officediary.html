@@ -1,0 +1,402 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Office Diaries</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	
+	<link rel="Icon" href="Ticon 2.png">
+	
+	<link rel="stylesheet" href="font-awesome/font-awesome-4.7.0/css/font-awesome.css">
+	
+<style>
+	
+	.card{
+		margin: 10px 0px;
+	}	
+	
+.footer-top
+	{
+		background-image: linear-gradient(to right,lightpink,lightgray);
+		padding: 80px 0px;
+	}
+	
+	
+li
+	{
+		color: black;
+		line-height: 25px;
+	}	
+	
+
+h3
+	{
+		color: black;
+	}
+	
+.segment-one h3
+	{
+		font-family:  Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		color: black;
+		text-transform: uppercase;
+	}
+	
+.segment-one h3:before
+	{
+		content: '|';
+		padding-right: 10px;
+		color: rgba(255,255,255,0.3);	
+	}
+	
+.segment-one ul
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+.segment-one ul li
+	{
+		border-bottom: 2px solid rgba(255,255,255,0.3);	
+		line-height: 30px;	
+	}
+	
+.segment-one ul li a
+	{
+		color: black;
+		text-decoration: none;
+	}
+	
+.segment-two h3
+	{
+		font-family:  Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		color: black;
+		text-transform: uppercase;
+	}
+	
+.segment-two h3:before
+	{
+		content: '|';
+		padding-right: 10px;
+		color: rgba(255,255,255,0.3);	
+	}
+	
+.segment-two ul
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+.segment-two ul li
+	{
+		border-bottom: 2px solid rgba(255,255,255,0.3);	
+		line-height: 30px;	
+	}
+	
+.segment-two ul li a
+	{
+		color: black;
+		text-decoration: none;
+	}	
+	
+.segment-three h3
+	{
+		font-family:  Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		color: black;
+		text-transform: uppercase;
+	}
+	
+.segment-three h3:before
+	{
+		content: '|';
+		padding-right: 10px;
+		color: rgba(255,255,255,0.3);	
+	}
+	
+.segment-three ul
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+.segment-three ul li
+	{
+		border-bottom: 2px solid rgba(255,255,255,0.3);	
+		line-height: 30px;	
+	}
+	
+.segment-three ul li a
+	{
+		color: black;
+		text-decoration: none;
+	}		
+	
+/*.segment-four
+	{
+		margin-top: 70px;
+		padding-left: 50px;
+	}*/
+	
+.segment-four h3
+	{
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		color: black;
+		text-transform: uppercase;
+	}	
+	
+.segment-four a
+	{
+		background: rgba(255,255,255,0.3);
+		width: 40px;
+		height: 40px;
+		display: inline-block;
+		border-radius: 50%;
+	}
+	
+.segment-four a i
+	{
+		font-size: 20px;
+		color: black;
+		padding: 10px 12px;
+	}
+
+.footer-bottom-text
+	{
+		text-align: center;
+		background: linear-gradient(to right,lightgray,lightpink);
+		line-height: 70px;
+		margin-bottom: 0px;
+	}
+	
+</style>	
+</head>
+
+<body>
+<nav class="navbar navbar-expand-sm navbar-light fixed-top position-sticky" style="background-image: linear-gradient(to right,lightpink,lightgray)">
+	
+	<img src="Logo 2.png" width="4%" alt="logo" >
+	
+	<button class="navbar-toggler" data-target="#link-collpase" data-toggle="collapse">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	
+	<div class="collapse navbar-collapse" id="link-collpase">
+	
+		<ul class="navbar-nav" style="padding-left: 30% ; font-size: 20px">
+		
+			<li class="nav-item">
+				<a class="nav-link" href="Home Page.html">Home</a>
+			</li>
+			
+			<div class="dropdown">
+	
+		<a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Calanders
+		</a>
+	
+	<div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-image: linear-gradient(to right,lightpink,lightgray)">
+    	<a class="dropdown-item" href="woodencalendar.html">Wooden Calenders</a>
+		<a class="dropdown-item" href="wallcalendar.html">Wall Calendars</a>
+		<a class="dropdown-item" href="tablecalendar.html">Table Calendars</a>
+		<a class="dropdown-item" href="notebookcalendar.html">Notebook And Pocket Calendars</a>
+	</div>
+	
+</div>
+			
+		<div class="dropdown">
+	
+		<a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Diaries
+		</a>
+	
+	<div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-image: linear-gradient(to right,lightpink,lightgray)">
+    	<a class="dropdown-item" href="personaldiary.html">Personal Diaries</a>
+		<a class="dropdown-item" href="secretdiary.html">Secret Diaries</a>
+		<a class="dropdown-item" href="academicdiary.html">Acedamic Diaries</a>
+		<a class="dropdown-item" href="">Office Diaries</a>
+	</div>
+	
+</div>	
+		
+		<div class="dropdown">
+	
+		<a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Journals
+		</a>
+	
+	<div class="dropdown-menu" aria-labelledby="dropdownMenuButton"  style="background-image: linear-gradient(to right,lightpink,lightgray)">
+    	<a class="dropdown-item" href="Food Journal Page.html">Food Journals</a>
+		<a class="dropdown-item" href="Travel Journal Page.html">Travel Journals</a>
+		<a class="dropdown-item" href="Workout Journal Page.html">Workout Journals</a>
+		<a class="dropdown-item" href="Pocket Journal Page.html">Pocket Journals</a>
+	</div>
+	
+</div>
+			
+		<div class="dropdown">
+	
+		<a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Price List
+		</a>
+	
+	<div class="dropdown-menu" aria-labelledby="dropdownMenuButton"  style="background-image: linear-gradient(to right,lightpink,lightgray)">
+    	<a class="dropdown-item" href="Pricelist.html">Calendar Price List</a>
+		<a class="dropdown-item" href="Pricelist 2.html">Diaries Price List</a>
+		<a class="dropdown-item" href="Pricelist 3.html">Journals Price List</a>
+	</div>
+	
+</div>		
+		<li class="nav-item">
+			<a class="nav-link" href="contactus.html">Contact</a>
+		</li>
+		</ul>
+	</div>
+	
+</nav>
+
+	
+	<header class="bg-light" style="color: black; font-size: 50px; font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif'; text-align: center; background-image: linear-gradient(to right,lightgray,lightgray)">Office Diaries</header>
+	
+	<div class="container-fluid">
+	<div class="row">
+	  <div class="col-lg-3 col-md-4 col-sm-6">
+	  	<div class="card-body">
+	  		<img src="officediary.png" height="300px" class="card-img">
+	  		<div class="card-body">
+	  			<h6 class="card-title">Office Diary</h6>
+	  			<p class="card-text">Price: $15.00</p>
+	  			<a href="officediaryproduct.html" class="btn" style="background-image: linear-gradient(to right,lightgray,lightgray)">Description</a>
+	  		</div>
+	  	</div>
+	  </div>
+		
+		 <div class="col-lg-3 col-md-4 col-sm-6">
+	  	<div class="card-body">
+	  		<img src="officediary2.png" height="300px" class="card-img">
+	  		<div class="card-body">
+	  			<h6 class="card-title">Office Diary</h6>
+	  			<p class="card-text">Price: $17.00</p>
+	  			<a href="officediaryproduct2.html" class="btn" style="background-image: linear-gradient(to right,lightgray,lightgray)">Description</a>
+	  		</div>
+	  	</div>
+	  </div>
+		
+		 <div class="col-lg-3 col-md-4 col-sm-6">
+	  	<div class="card-body">
+	  		<img src="officediary3.png" height="300px" class="card-img">
+	  		<div class="card-body">
+	  			<h6 class="card-title">Office Diary</h6>
+	  			<p class="card-text">Price: $22.00</p>
+	  			<a href="officediaryproduct3.html" class="btn" style="background-image: linear-gradient(to right,lightgray,lightgray)">Description</a>
+	  		</div>
+	  	</div>
+	  </div>
+		
+		 <div class="col-lg-3 col-md-4 col-sm-6">
+	  	<div class="card-body">
+	  		<img src="officediary4.png" height="300px" class="card-img">
+	  		<div class="card-body">
+	  			<h6 class="card-title">Office Diary</h6>
+	  			<p class="card-text">Price: $22.00</p>
+	  			<a href="officediaryproduct4.html" class="btn" style="background-image: linear-gradient(to right,lightgray,lightgray)">Description</a>
+	  		</div>
+	  	</div>
+	  </div>
+	</div>
+	</div>
+	
+<footer>
+	
+
+<div class="footer-top">
+	
+<div class="container">
+	
+<div class="row">
+	
+	
+	<div class="col-md-3 col-sm-6 col-xs-12 segment-one">
+	
+		<h3>Calendars</h3>
+		
+		<ul>
+			
+			<li><a href="woodencalendar.html">Wooden Calendars</a></li>
+			<li><a href="wallcalendar.html">Wall Calendars</a></li>
+			<li><a href="tablecalendar.html">Table Calendars</a></li>
+			<li><a href="notebookcalendar.html">Pocket Calendars</a></li>
+			
+		</ul>
+	
+	</div>
+	
+	
+	<div class="col-md-3 col-sm-6 col-xs-12 segment-two">
+	
+		<h3>Diaries</h3>
+		
+		<ul>
+			
+			<li><a href="personaldiary.html">Personal Diary</a></li>
+			<li><a href="secretdiary.html">Secret Diary</a></li>
+			<li><a href="academicdiary.html">Academic Diary</a></li>
+			<li><a href="officediary.html">Office Diary</a></li>
+			
+		</ul>
+	
+	</div>
+	
+	
+	<div class="col-md-3 col-sm-6 col-xs-12 segment-three">
+	
+		<h3>Journals</h3>
+		
+		<ul>
+			
+			<li><a href="Food Journal Page.html">Food Journal</a></li>
+			<li><a href="Travel Journal Page.html">Travel Journal</a></li>
+			<li><a href="Workout Journal Page.html">Workout Journal</a></li>
+			<li><a href="Pocket Journal Page.html">Pocket Journal</a></li>
+			
+		</ul>
+	
+	</div>
+	
+	
+	<div class="col-md-3 col-sm-6 col-xs-12 segment-four">
+	
+		<h3>Follow Us On </h3><br>
+		
+		<p>Follow us on our social media to be notified about our new products</p>
+		
+		<a href="#"><i class="fa fa-facebook"></i></a>
+		
+		<a href="#"><i class="fa fa-instagram"></i></a>
+		
+		<a href="#"><i class="fa fa-twitter"></i></a>
+		
+		<a href="#"><i class="fa fa-linkedin"></i></a>
+		
+	
+	</div>
+	
+	
+</div>	
+	
+</div>
+	
+</div>	
+	
+	<p class="footer-bottom-text">A Group Work By <b>Rabeet's Group</b> PR201912C</p>
+	
+</footer>	
+				
+			
+		
+<script src="jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>		
+</body>
+</html>
+

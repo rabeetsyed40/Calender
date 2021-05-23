@@ -1,0 +1,445 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact Us</title>
+	
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" href="font-awesome/font-awesome-4.7.0/css/font-awesome.css">
+	
+	<link rel="Icon" href="Ticon 2.png">
+	
+<style>
+	
+.footer-top
+	{
+		background-image: linear-gradient(to right,lightpink,lightgray);
+		padding: 80px 0px;
+	}
+	
+	
+li
+	{
+		color: black;
+		line-height: 25px;
+	}	
+	
+
+h3
+	{
+		color: black;
+	}
+	
+.segment-one h3
+	{
+		font-family:  Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		color: black;
+		text-transform: uppercase;
+	}
+	
+.segment-one h3:before
+	{
+		content: '|';
+		padding-right: 10px;
+		color: rgba(255,255,255,0.3);	
+	}
+	
+.segment-one ul
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+.segment-one ul li
+	{
+		border-bottom: 2px solid rgba(255,255,255,0.3);	
+		line-height: 30px;	
+	}
+	
+.segment-one ul li a
+	{
+		color: black;
+		text-decoration: none;
+	}
+	
+.segment-two h3
+	{
+		font-family:  Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		color: black;
+		text-transform: uppercase;
+	}
+	
+.segment-two h3:before
+	{
+		content: '|';
+		padding-right: 10px;
+		color: rgba(255,255,255,0.3);	
+	}
+	
+.segment-two ul
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+.segment-two ul li
+	{
+		border-bottom: 2px solid rgba(255,255,255,0.3);	
+		line-height: 30px;	
+	}
+	
+.segment-two ul li a
+	{
+		color: black;
+		text-decoration: none;
+	}	
+	
+.segment-three h3
+	{
+		font-family:  Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		color: black;
+		text-transform: uppercase;
+	}
+	
+.segment-three h3:before
+	{
+		content: '|';
+		padding-right: 10px;
+		color: rgba(255,255,255,0.3);	
+	}
+	
+.segment-three ul
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+.segment-three ul li
+	{
+		border-bottom: 2px solid rgba(255,255,255,0.3);	
+		line-height: 30px;	
+	}
+	
+.segment-three ul li a
+	{
+		color: black;
+		text-decoration: none;
+	}		
+	
+/*.segment-four
+	{
+		margin-top: 70px;
+		padding-left: 50px;
+	}*/
+	
+.segment-four h3
+	{
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		color: black;
+		text-transform: uppercase;
+	}	
+	
+.segment-four a
+	{
+		background: rgba(255,255,255,0.3);
+		width: 40px;
+		height: 40px;
+		display: inline-block;
+		border-radius: 50%;
+	}
+	
+.segment-four a i
+	{
+		font-size: 20px;
+		color: black;
+		padding: 10px 12px;
+	}
+
+.footer-bottom-text
+	{
+		text-align: center;
+		background: linear-gradient(to right,lightgray,lightpink);
+		line-height: 70px;
+		margin-bottom: 0px;
+	}
+	
+body
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+	
+ul
+	{
+		list-style: none;
+	}
+	
+a
+	{
+		text-decoration: none;
+	}	
+	
+#container
+	{
+		width: 100%;
+		height: 100vh;
+		background-color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+.box
+	{
+		width: 300px;
+		height: 400px;
+		background-color: white;
+		border-radius: 10px;
+		box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		box-sizing: border-box;
+		margin: 20px 10px;
+	}
+	
+.model
+	{
+		height: 250px;
+		max-height: 100%;
+		max-width: 100%;
+	}
+	
+.details
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 300px;
+	}
+	
+.details span
+	{
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-weight: 800;
+	}
+	
+.box:hover
+	{
+		background-color: mintcream;
+		transform-style: preserve-3d;
+		transform: scale(1.02);
+		transition: all ease 0.3s;
+	}
+		
+	
+</style>	
+	
+			
+</head>
+
+<body>
+	
+<nav class="navbar navbar-expand-sm navbar-light fixed-top position-sticky"  style="background-image: linear-gradient(to right,lightpink,lightgray)">
+	
+	<img src="logo 2.png" width="4%" alt="logo" >
+	
+	<button class="navbar-toggler" data-target="#link-collpase" data-toggle="collapse">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	
+	<div class="collapse navbar-collapse" id="link-collpase">
+	
+		<ul class="navbar-nav" style="padding-left: 30% ; font-size: 20px">
+		
+			<li class="nav-item">
+				<a class="nav-link" href="Home Page.html">Home</a>
+			</li>
+			
+			<div class="dropdown">
+	
+		<a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Calanders
+		</a>
+	
+	<div class="dropdown-menu" aria-labelledby="dropdownMenuButton"  style="background-image: linear-gradient(to right,lightpink,lightgray)">
+    	<a class="dropdown-item" href="woodencalendar.html">Wooden Calenders</a>
+		<a class="dropdown-item" href="wallcalendar.html">Wall Calendars</a>
+		<a class="dropdown-item" href="tablecalendar.html">Table Calendars</a>
+		<a class="dropdown-item" href="notebookcalendar.html">Notebook And Pocket Calendars</a>
+	</div>
+	
+</div>
+			
+		<div class="dropdown">
+	
+		<a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Diaries
+		</a>
+	
+	<div class="dropdown-menu" aria-labelledby="dropdownMenuButton"  style="background-image: linear-gradient(to right,lightpink,lightgray)">
+    	<a class="dropdown-item" href="personaldiary.html">Personal Diaries</a>
+		<a class="dropdown-item" href="secretdiary.html">Secret Diaries</a>
+		<a class="dropdown-item" href="academicdiary.html">Academic Diaries</a>
+		<a class="dropdown-item" href="officediary.html">Office Diaries</a>
+	</div>
+	
+</div>	
+		
+			<div class="dropdown">
+	
+		<a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Price List
+		</a>
+	
+	<div class="dropdown-menu" aria-labelledby="dropdownMenuButton"  style="background-image: linear-gradient(to right,lightpink,lightgray)">
+    	<a class="dropdown-item" href="Pricelist.html">Calendar Price List</a>
+		<a class="dropdown-item" href="Pricelist 2.html">Diaries Price List</a>
+		<a class="dropdown-item" href="Pricelist 3.html">Journals Price List</a>
+	</div>
+	
+</div>		
+			<li class="nav-item">
+				<a class="nav-link" href="">Contact</a>
+			</li>
+	
+		</ul>
+	</div>
+	
+</nav>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-8">
+			<form onsubmit="submitForm()">
+				<div class="form-group">
+				 <label>Name: *</label>
+				 <input type="text" pattern="[a-zA-Z ]+" class="form-control" required title="enter only letters">
+				</div>
+				<div class="form-group">
+				 <label>Phone #: *</label>
+				 <input type="number" pattern="[0-9]+" class="form-control" required title="enter only numbers">
+				</div>
+				<div class="form-group">
+				 <label>Email: *</label>
+				 <input type="mail" 
+				 pattern="[a-zA-Z_][a-zA-Z0-9.]+@[a-z]+.[a-z]{2,4}]" class="form-control" required>
+				</div>
+				<div class="form-group">
+					<label>Message</label>
+				 <textarea class="form-control" required maxlength="250" title="you can enter only 250 characters"></textarea>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Send" class="btn"  style="background-image: linear-gradient(to right,lightgray,lightgray)">
+				</div>
+			</form>
+		</div>
+		<div class="col-md-4">
+				<br>
+			For Any Inquery Contact Here <br>
+			<a href="mailto:rabeetsyed40@gmail.com">rabeetsyed40@gmail.com</a>
+		</div>
+	</div>
+</div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.0171487494763!2d67.07220941477568!3d24.86326388405264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ea3db108f41%3A0x42acc4507358b160!2sAptech%20Computer%20Education%2C%20Shahrah%20e%20Faisal%20Center!5e0!3m2!1sen!2sus!4v1585725987069!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+	
+	
+<footer>
+	
+
+<div class="footer-top">
+	
+<div class="container">
+	
+<div class="row">
+	
+	
+	<div class="col-md-3 col-sm-6 col-xs-12 segment-one">
+	
+		<h3>Calendars</h3>
+		
+		<ul>
+			
+			<li><a href="woodencalendar.html">Wooden Calendars</a></li>
+			<li><a href="wallcalendar.html">Wall Calendars</a></li>
+			<li><a href="tablecalendar.html">Table Calendars</a></li>
+			<li><a href="notebookcalendar.html">Pocket Calendars</a></li>
+			
+		</ul>
+	
+	</div>
+	
+	
+	<div class="col-md-3 col-sm-6 col-xs-12 segment-two">
+	
+		<h3>Diaries</h3>
+		
+		<ul>
+			
+			<li><a href="personaldiary.html">Personal Diary</a></li>
+			<li><a href="secretdiary.html">Secret Diary</a></li>
+			<li><a href="academicdiary.html">Academic Diary</a></li>
+			<li><a href="officediary.html">Office Diary</a></li>
+			
+		</ul>
+	
+	</div>
+	
+	
+	<div class="col-md-3 col-sm-6 col-xs-12 segment-three">
+	
+		<h3>Journals</h3>
+		
+		<ul>
+			
+			<li><a href="Food Journal Page.html">Food Journal</a></li>
+			<li><a href="Travel Journal Page.html">Travel Journal</a></li>
+			<li><a href="Workout Journal Page.html">Workout Journal</a></li>
+			<li><a href="Pocket Journal Page.html">Pocket Journal</a></li>
+			
+		</ul>
+	
+	</div>
+	
+	
+	<div class="col-md-3 col-sm-6 col-xs-12 segment-four">
+	
+		<h3>Follow Us On </h3><br>
+		
+		<p>Follow us on our social media to be notified about our new products</p>
+		
+		<a href="#"><i class="fa fa-facebook"></i></a>
+		
+		<a href="#"><i class="fa fa-instagram"></i></a>
+		
+		<a href="#"><i class="fa fa-twitter"></i></a>
+		
+		<a href="#"><i class="fa fa-linkedin"></i></a>
+		
+	
+	</div>
+	
+	
+</div>	
+	
+</div>
+	
+</div>	
+	
+	<p class="footer-bottom-text">A Group Work By <b>Rabeet's Group</b> PR201912C</p>
+	
+</footer>	
+		
+	
+</body>
+</html>
